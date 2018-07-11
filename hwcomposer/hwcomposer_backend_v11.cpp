@@ -41,7 +41,8 @@
 
 #include <android-version.h>
 #include "hwcomposer_backend_v11.h"
-#include "qeglfswindow.h"
+
+#include <private/qeglfswindow_p.h>
 
 #include <QtCore/QElapsedTimer>
 #include <QtCore/QTimerEvent>

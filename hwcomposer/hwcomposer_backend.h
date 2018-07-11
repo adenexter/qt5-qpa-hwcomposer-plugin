@@ -53,8 +53,11 @@
 #include <EGL/eglext.h>
 
 #include <qdebug.h>
+#include <qloggingcategory.h>
 
 class QEglFSWindow;
+
+Q_DECLARE_LOGGING_CATEGORY(QPA_LOG_HWC)
 
 // Evaluate "x", if it doesn't return zero, print a warning
 #define HWC_PLUGIN_EXPECT_ZERO(x) \
